@@ -9,7 +9,7 @@
     console.log("FIGHT!!!");
 
     //player name
-    //
+    //DEFINE PLAYER'S NAME
     var playerOneName = "Spiderman";
     var playerTwoName = "Batman";
 

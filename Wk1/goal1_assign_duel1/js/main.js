@@ -19,7 +19,7 @@
     var player2Damage = 20;
 
     //player health
-    //
+    //DEFINE PLAYER'S LIFE INITIAL HEALTH
     var playerOneHealth = 100;
     var playerTwoHealth = 100;
 

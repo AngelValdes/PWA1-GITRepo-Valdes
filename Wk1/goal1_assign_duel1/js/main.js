@@ -67,11 +67,11 @@
           };
     };
 
-    //
+    //CHECK FOR WINNER (ANY PLAYER HEALTH BELOW 1, OR BOTH BELOW 1)
     function winnerCheck() {
-        //CHECK FOR WINNER (ANY PLAYER HEALTH BELOW 1, OR BOTH BELOW 1)
-        var result = "no winner";
         //MESSAGE ASSUMES NO WINNER
+        var result = "no winner";
+        //IF BOTH PLAYERS' HEALTH BELOW 1, MESSAGE "BOTH DIE"
         if (playerOneHealth<1 && playerTwoHealth<1)
         {
             result = "You Both Die";

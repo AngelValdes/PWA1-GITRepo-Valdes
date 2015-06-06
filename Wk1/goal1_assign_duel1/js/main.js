@@ -75,7 +75,7 @@
         if (playerOneHealth<1 && playerTwoHealth<1)
         {
             result = "You Both Die";
-            //
+            //IF PLAYER1'S HEALTH BELOW 1, MESSAGE "PLAYER2'S NAME WINS"
         } else if(playerOneHealth<1) {
             result = playerTwoName + " WINS!!!";
             //

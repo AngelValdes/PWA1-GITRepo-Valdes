@@ -50,7 +50,7 @@
             console.log(playerOneName+": "+playerOneHealth + " " + playerTwoName+":"+playerTwoHealth);
 
             //check for victor
-            //
+            //CALL WINNER CHECK PROCESS
             var result = winnerCheck();
             console.log(result);
             //

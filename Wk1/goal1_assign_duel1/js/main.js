@@ -82,7 +82,7 @@
         } else if (playerTwoHealth<1) {
             result = playerOneName + " WINS!!!";
         };
-        //
+        //RETURN MESSAGE
        return result;
     };
 

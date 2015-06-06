@@ -14,7 +14,7 @@
     var playerTwoName = "Batman";
 
     //player damage
-    //
+    //DEFINE PLAYER'S MAXIMUM ROUND DAMAGE
     var player1Damage = 20;
     var player2Damage = 20;
 

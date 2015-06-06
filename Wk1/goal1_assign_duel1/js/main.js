@@ -24,7 +24,7 @@
     var playerTwoHealth = 100;
 
     //initiate round
-    //
+    //SET INTIAL ROUND TO 0
     var round=0;
 
     //

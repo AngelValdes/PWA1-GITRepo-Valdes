@@ -53,7 +53,7 @@
             //CALL WINNER CHECK PROCESS
             var result = winnerCheck();
             console.log(result);
-            //
+            //IF WINNER OUTPUT MESSAGE, IF NOT THEN INCREMENT ROUND AND FIGHT AGAIN (LOOP)
             if (result==="no winner")
             {
                 round++;

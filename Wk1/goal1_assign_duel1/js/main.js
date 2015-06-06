@@ -69,7 +69,7 @@
 
     //
     function winnerCheck() {
-        //
+        //CHECK FOR WINNER (ANY PLAYER HEALTH BELOW 1, OR BOTH BELOW 1)
         var result = "no winner";
         //
         if (playerOneHealth<1 && playerTwoHealth<1)

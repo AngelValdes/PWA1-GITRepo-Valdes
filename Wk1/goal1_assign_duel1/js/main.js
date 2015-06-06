@@ -71,7 +71,7 @@
     function winnerCheck() {
         //CHECK FOR WINNER (ANY PLAYER HEALTH BELOW 1, OR BOTH BELOW 1)
         var result = "no winner";
-        //
+        //MESSAGE ASSUMES NO WINNER
         if (playerOneHealth<1 && playerTwoHealth<1)
         {
             result = "You Both Die";

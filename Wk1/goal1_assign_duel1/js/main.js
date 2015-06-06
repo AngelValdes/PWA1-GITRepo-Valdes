@@ -31,7 +31,7 @@
     function fight() {
         //DISPLAY INITIAL PLAYERS' NAME AND HEALTH
         alert(playerOneName + ":" + playerOneHealth + "  *START*  " + playerTwoName + ":" + playerTwoHealth);
-        //
+        //REPEAT FROM ROUND 0 TO A MAXIMUM OF 10 ROUNDS
         for (var i = 0; i < 10; i++)
         {
             

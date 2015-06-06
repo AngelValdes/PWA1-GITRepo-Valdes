@@ -27,7 +27,7 @@
     //SET INTIAL ROUND TO 0
     var round=0;
 
-    //
+    //INITIATE THE FIGHT
     function fight() {
         //
         alert(playerOneName + ":" + playerOneHealth + "  *START*  " + playerTwoName + ":" + playerTwoHealth);

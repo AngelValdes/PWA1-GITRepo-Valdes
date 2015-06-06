@@ -87,7 +87,7 @@
     };
 
     /*******  The program gets started below *******/
-    //
+    //AUTOMATICALLY START THE GAME
     fight();
 
 })();

@@ -29,7 +29,7 @@
 
     //INITIATE THE FIGHT
     function fight() {
-        //
+        //DISPLAY INITIAL PLAYERS' NAME AND HEALTH
         alert(playerOneName + ":" + playerOneHealth + "  *START*  " + playerTwoName + ":" + playerTwoHealth);
         //
         for (var i = 0; i < 10; i++)

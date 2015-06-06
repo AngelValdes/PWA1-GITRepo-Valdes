@@ -5,7 +5,7 @@
 
 // self-executing function
 (function(){
-    //
+    //DISPLAY MESSAGE IN BROWSER CONSOLE
     console.log("FIGHT!!!");
 
     //player name

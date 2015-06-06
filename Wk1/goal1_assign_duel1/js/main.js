@@ -43,7 +43,7 @@
             var f2 = Math.floor(Math.random()*(player2Damage-minDamage2)+minDamage2);
 
             //inflict damage
-            //
+            //SUBTRACT NEW DAMAGE FROM PLAYERS' HEALTH
             playerOneHealth-=f1;
             playerTwoHealth-=f2;
 

@@ -8,4 +8,18 @@
  * Note: PSEUDOCODE IN UPPERCASE
  */
 
+//DECLARE "Person" CONSTRUCTOR, RECEIVING TWO ARGUMENTS NAME AND ROWNUMBER
+var Person = function (name, rowNumber) {
+    this.name = name;
+    this.rowNumber = rowNumber;
+    //ADDITIONAL CODE...
+};
 
+//DEFINE SHARE FUNCTIONS AND PROPERTIES IN THE PROTOTYPE
+Person.prototype = {
+    jobs: ["teacher", "farmer", "student", "pilot"],
+    actions: ["sleeping", "eating", "working"],
+    update: function () {
+        //ADDITIONAL CODE...
+    }
+}

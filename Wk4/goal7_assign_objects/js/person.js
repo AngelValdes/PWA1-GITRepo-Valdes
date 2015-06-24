@@ -23,3 +23,26 @@ Person.prototype = {
         //ADDITIONAL CODE...
     }
 }
+
+//FUNCTION TO FIND IF ARRAY CONTAINS A MEMBER WITH A VALUE 
+function findByProperty(array, value) {
+    var index = -1;
+    for (var i = 0; i < array.length; i++) {
+        if (array[i] === value) {
+            index = i;
+            break;
+        };
+    }
+    return index;
+}
+
+//REPEAT FUNCTION CALL AFTER SPECIFIED TIME
+setInterval(runUpdate, 1000 / 30);
+//FUNCTION TO UPDATE PEOPLE'S NAME
+function runUpdate() {
+    for (var i = 0; i < people.length; i++) {
+        //ADDITONAL CODE
+    }
+    //UPDATE OUTPUT ON PAGE
+    populateHTML();
+};

@@ -11,4 +11,7 @@
 //ARRAY CALLED NAMES
 var names = ["Juan", "Jorge", "Mary", "Jose", "Cindy"];
 
+//DECLARE PEOPLE ARRAY
+var people = [];
+
 

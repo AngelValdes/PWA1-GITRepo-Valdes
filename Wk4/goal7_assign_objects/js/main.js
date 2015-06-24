@@ -14,4 +14,6 @@ var names = ["Juan", "Jorge", "Mary", "Jose", "Cindy"];
 //DECLARE PEOPLE ARRAY
 var people = [];
 
+//DECLACRE NAMES USED ARRAY
+var namesUsedIndexes = [];
 

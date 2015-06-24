@@ -26,3 +26,8 @@ for (var i = 0; people.length < 3; i++) {
         namesUsedIndexes.push(nameIndex);
     }
 }
+
+//FUNCTION TO OUPUT THE PERSON'S INFORMATION ON PAGE, GET ELEMENTS FROM PAGE AND FOR EACH ROW, PRINT A PERSON'S NAME, JOB, AND ACTION
+function populateHTML() {
+    //ADDITIONAL CODE...
+}
